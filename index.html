@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 8</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tu Mapa Estelar</h1>
+    <h2 class="subtitulos-tu-mapa">Ingresá tus Datos Personales</h2>
+    <form action="">
+        <div class="parrafos-3">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="parrafos-3">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+        <div class="parrafos-3">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </div>
+    </form>
+    <h2 class="subtitulos-tu-mapa mb-3">Ingresá los Datos para hacer el Mapa Estelar</h2>
+    <form action="">
+        <div class="parrafos-3">
+            <label for="tipoIlustracion">Tipo de Ilustración (Artesanal o Digital):</label>
+            <input type="text" id="tipoIlustracion" name="tipoIlustracion">
+        </div>
+        <div class="parrafos-3">
+            <label for="tamano">Tamaño de la Ilustración (A4, 20x30 ó 30x40):</label>
+            <input type="text" id="tamano" name="tamano">
+        </div>
+        <div class="enviar">
+            <button id="boton-enviar">Enviar</button>
+        </div>
+    </form>
+    <div id="prueba"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
